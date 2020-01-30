@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source_files = 'OCSPCache/Classes/**/*'
   s.dependency 'ReactiveObjC', '3.1.1' 
-  s.dependency 'OpenSSL-Universal', '1.0.2.17'
+  s.dependency 'OpenSSL-Universal'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 x86_64' }
 end
