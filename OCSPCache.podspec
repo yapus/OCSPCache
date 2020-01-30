@@ -7,7 +7,8 @@ Pod::Spec.new do |s|
   s.platform          = :ios
   s.author           = { 'Psiphon Inc' => 'info@psiphon.ca' }
   s.source           = { :git => 'https://github.com/Psiphon-Labs/OCSPCache.git', :tag => s.version.to_s }
-
+  
+  s.static_framework = true
   s.ios.deployment_target = '8.0'
   s.source_files = 'OCSPCache/Classes/**/*'
   s.dependency 'ReactiveObjC', '3.1.1' 
